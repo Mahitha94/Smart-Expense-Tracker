@@ -1,0 +1,100 @@
+/**
+ * Smart Expense Tracker Pro - login.css
+ * Styles for auth pages (login.php and register.php)
+ */
+
+.login-body {
+    background: radial-gradient(circle at top right, var(--primary-light) 0%, var(--light) 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 480px;
+}
+
+.login-card {
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--light-border);
+    padding: 2.5rem;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.03em;
+}
+
+.login-header .accent {
+    color: var(--primary);
+}
+
+.login-header p {
+    color: var(--dark-muted);
+    font-size: 0.875rem;
+}
+
+.login-form .form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.remember-me label {
+    cursor: pointer;
+    color: var(--dark-muted);
+}
+
+.forgot-password-link {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.terms-agreement {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.825rem;
+    color: var(--dark-muted);
+    margin-bottom: 1.5rem;
+}
+
+.terms-agreement input {
+    margin-top: 0.2rem;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--dark-muted);
+}
+
+.auth-link {
+    font-weight: 600;
+    color: var(--primary);
+}

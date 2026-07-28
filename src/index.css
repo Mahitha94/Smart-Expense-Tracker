@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Override Indigo with Purple (#6C4CF1) */
+  --color-indigo-50: #f3f0ff;
+  --color-indigo-100: #e8e3ff;
+  --color-indigo-200: #d4ccff;
+  --color-indigo-500: #6C4CF1;
+  --color-indigo-600: #5a3cd1;
+  --color-indigo-700: #4c32b5;
+  --color-indigo-950: #0d062e;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(108, 76, 241, 0.02);
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(108, 76, 241, 0.2);
+  border-radius: 9999px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(108, 76, 241, 0.4);
+}
+
+/* Clean White Theme Styles */
+.glass-panel {
+  background: #ffffff;
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+}
+
+.dark .glass-panel {
+  background: #1e293b;
+  border: 1px solid #334155;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.glass-card {
+  background: #ffffff;
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 8px 30px rgba(108, 76, 241, 0.03), 0 2px 10px rgba(0, 0, 0, 0.01);
+  border-radius: 1rem;
+}
+
+.dark .glass-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Light gray (#F8F9FA) sections bg helper */
+.section-gray {
+  background-color: #F8F9FA;
+}
+
+/* Background gradient or clean flat background */
+.radial-bg {
+  background-color: #FAFAFB;
+}
+
+.dark .radial-bg {
+  background-color: #0f172a;
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+}
+
+.animate-glow {
+  animation: pulseGlow 8s infinite ease-in-out;
+}
+
+/* Headings styling: Black in light mode, White in dark mode */
+:root:not(.dark) h1:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+:root:not(.dark) h2:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+:root:not(.dark) h3:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+:root:not(.dark) h4:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+:root:not(.dark) h5:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+:root:not(.dark) h6:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]) {
+  color: #000000;
+}
+
+.dark h1:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+.dark h2:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+.dark h3:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+.dark h4:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+.dark h5:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]),
+.dark h6:not([class*="text-transparent"]):not([class*="text-red-"]):not([class*="text-emerald-"]):not([class*="text-indigo-"]):not([class*="text-purple-"]):not([class*="text-violet-"]):not([class*="text-amber-"]):not([class*="text-teal-"]) {
+  color: #ffffff;
+}
+
+
