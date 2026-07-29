@@ -46,7 +46,9 @@ Smart Expense Tracker Pro is a comprehensive personal finance management applica
 
 The Dashboard provides a comprehensive overview of the user's financial status, displaying total balance, income, expenses, savings, financial health score, budget utilization, and monthly expense analytics through an intuitive and interactive interface.
 
-<img width="900" alt="Dashboard" src="c:\Users\mahit\OneDrive\Pictures\Screenshots\dashboard.png.png" />
+
+<img width="1575" height="999" alt="image" src="https://github.com/user-attachments/assets/ffc3b7a8-0f97-4eed-a3ef-555c266c5abf" />
+
 
 ---
 
@@ -54,7 +56,8 @@ The Dashboard provides a comprehensive overview of the user's financial status, 
 
 The Expense Management module enables users to efficiently record, categorize, search, and manage daily expenses while maintaining a detailed transaction history for better financial tracking.
 
-<img width="900" alt="Expenses" src="c:\Users\mahit\OneDrive\Pictures\Screenshots\expenses.png.png " />
+<img width="1651" height="953" alt="image" src="https://github.com/user-attachments/assets/7a4a0720-aa3f-433d-bad8-2e121f77d87b" />
+
 
 ---
 
@@ -62,7 +65,10 @@ The Expense Management module enables users to efficiently record, categorize, s
 
 The Income Management module allows users to record and organize multiple income sources, monitor earnings, and maintain accurate financial records for improved income tracking and analysis.
 
-<img width="900" alt="Income" src="c:\Users\mahit\OneDrive\Pictures\Screenshots\income.png.png" />
+
+<img width="1629" height="965" alt="image" src="https://github.com/user-attachments/assets/22647ca2-56d0-4023-809f-e8a7100463b2" />
+
+
 
 ---
 
@@ -70,7 +76,9 @@ The Income Management module allows users to record and organize multiple income
 
 The Budget Planner helps users create personalized budgets, monitor spending limits, analyze budget utilization, and receive AI-powered recommendations for smarter financial planning.
 
-<img width="900" alt="Budget Planner" src="c:\Users\mahit\OneDrive\Pictures\Screenshots\Budget Planner.png.png" />
+
+<img width="1586" height="992" alt="image" src="https://github.com/user-attachments/assets/c3ebc475-493f-48dc-a1a9-b0b85f661b54" />
+
 
 ---
 
@@ -78,7 +86,9 @@ The Budget Planner helps users create personalized budgets, monitor spending lim
 
 The Savings Goals module allows users to set financial targets, monitor savings progress, and visualize their achievements through an easy-to-understand progress tracking system.
 
-<img width="900" alt="Savings Goals" src="c:\Users\mahit\OneDrive\Pictures\Screenshots\savings goal.png.png" />
+
+<img width="1579" height="996" alt="image" src="https://github.com/user-attachments/assets/7271f402-4383-48d4-9b26-53cd06552ca8" />
+
 
 ---
 
@@ -86,7 +96,8 @@ The Savings Goals module allows users to set financial targets, monitor savings 
 
 The Reports & Analytics section provides interactive charts and visual insights that help users analyze spending patterns, income trends, budget performance, and overall financial health.
 
-<img width="900" alt="Reports" src="c:\Users\mahit\OneDrive\Pictures\Screenshots\reports.png.png" />
+<img width="1619" height="972" alt="image" src="https://github.com/user-attachments/assets/10fdbfe4-e8ea-418c-bd85-19e4b42020b5" />
+
 
 ---
 
