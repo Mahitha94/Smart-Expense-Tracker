@@ -1,16 +1,16 @@
-# 💰 Smart Expense Tracker Pro
+#  Smart Expense Tracker Pro
 
 A modern full-stack personal finance management system designed to help users efficiently manage income, expenses, savings, budgets, and financial reports.
 
 ---
 
-## 📖 Overview
+##  Overview
 
 Smart Expense Tracker Pro is a comprehensive personal finance management application developed to simplify day-to-day financial planning and expense tracking...
 
 ---
 
-## ✨ Key Highlights
+##  Key Highlights
 
 - Professional Full-Stack Finance Management Application
 - Interactive Financial Dashboard
@@ -21,28 +21,28 @@ Smart Expense Tracker Pro is a comprehensive personal finance management applica
 
 ---
 
-# 🚀 Features
+#  Features
 
-- 🔐 Secure User Authentication
-- 📊 Interactive Financial Dashboard
-- 💸 Expense Management
-- 💰 Income Management
-- 🎯 Smart Budget Planner
-- 🎯 Savings Goals Tracking
-- 📈 Financial Reports & Analytics
-- 🤖 AI-Powered Budget Recommendations
-- 💱 Multi-Currency Support
-- 🌙 Dark & Light Mode
-- 👤 User Profile Management
-- ⚙️ Application Settings
-- 📱 Responsive User Interface
-- 🗄️ MySQL Database Integration
+-  Secure User Authentication
+-  Interactive Financial Dashboard
+-  Expense Management
+-  Income Management
+-  Smart Budget Planner
+-  Savings Goals Tracking
+-  Financial Reports & Analytics
+-  AI-Powered Budget Recommendations
+-  Multi-Currency Support
+-  Dark & Light Mode
+-  User Profile Management
+-  Application Settings
+-  Responsive User Interface
+-  MySQL Database Integration
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
-## 📊 Dashboard
+##  Dashboard
 
 The Dashboard provides a comprehensive overview of the user's financial status, displaying total balance, income, expenses, savings, financial health score, budget utilization, and monthly expense analytics through an intuitive and interactive interface.
 
@@ -52,7 +52,7 @@ The Dashboard provides a comprehensive overview of the user's financial status, 
 
 ---
 
-## 💸 Expense Management
+##  Expense Management
 
 The Expense Management module enables users to efficiently record, categorize, search, and manage daily expenses while maintaining a detailed transaction history for better financial tracking.
 
@@ -61,7 +61,7 @@ The Expense Management module enables users to efficiently record, categorize, s
 
 ---
 
-## 💰 Income Management
+##  Income Management
 
 The Income Management module allows users to record and organize multiple income sources, monitor earnings, and maintain accurate financial records for improved income tracking and analysis.
 
@@ -72,7 +72,7 @@ The Income Management module allows users to record and organize multiple income
 
 ---
 
-## 🎯 Budget Planner
+##  Budget Planner
 
 The Budget Planner helps users create personalized budgets, monitor spending limits, analyze budget utilization, and receive AI-powered recommendations for smarter financial planning.
 
@@ -82,7 +82,7 @@ The Budget Planner helps users create personalized budgets, monitor spending lim
 
 ---
 
-## 🎯 Savings Goals
+##  Savings Goals
 
 The Savings Goals module allows users to set financial targets, monitor savings progress, and visualize their achievements through an easy-to-understand progress tracking system.
 
@@ -92,7 +92,7 @@ The Savings Goals module allows users to set financial targets, monitor savings 
 
 ---
 
-## 📈 Reports & Analytics
+##  Reports & Analytics
 
 The Reports & Analytics section provides interactive charts and visual insights that help users analyze spending patterns, income trends, budget performance, and overall financial health.
 
@@ -101,9 +101,9 @@ The Reports & Analytics section provides interactive charts and visual insights 
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
-### 🎨 Frontend
+###  Frontend
 - React
 - TypeScript
 - Vite
@@ -111,19 +111,19 @@ The Reports & Analytics section provides interactive charts and visual insights 
 - CSS3
 - JavaScript
 
-### ⚙️ Backend
+###  Backend
 - PHP
 
-### 🗄️ Database
+###  Database
 - MySQL
 
-### 📊 Data Visualization
+###  Data Visualization
 - Chart.js
 
-### 🤖 AI Integration
+###  AI Integration
 - Google Gemini API
 
-### 🛠️ Development Tools
+###  Development Tools
 - Visual Studio Code
 - XAMPP
 - Git
@@ -131,7 +131,7 @@ The Reports & Analytics section provides interactive charts and visual insights 
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 Smart-Expense-Tracker-Pro/
@@ -157,21 +157,21 @@ Smart-Expense-Tracker-Pro/
 
 ---
 
-# 🔮 Future Enhancements
+#  Future Enhancements
 
-- 📱 Mobile Application Support
-- ☁️ Cloud Data Synchronization
-- 📅 Recurring Expense & Income Tracking
-- 📊 Advanced Financial Analytics & Forecasting
-- 🔔 Smart Notifications & Budget Alerts
-- 📄 Export Reports in PDF & Excel Formats
-- 🌍 Enhanced Multi-Currency & Localization Support
-- 🏦 Bank Account Integration
-- 🤖 AI-Based Financial Insights & Spending Recommendations
+-  Mobile Application Support
+-  Cloud Data Synchronization
+-  Recurring Expense & Income Tracking
+-  Advanced Financial Analytics & Forecasting
+-  Smart Notifications & Budget Alerts
+-  Export Reports in PDF & Excel Formats
+-  Enhanced Multi-Currency & Localization Support
+-  Bank Account Integration
+-  AI-Based Financial Insights & Spending Recommendations
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Mahitha Vinjamuri**
 
